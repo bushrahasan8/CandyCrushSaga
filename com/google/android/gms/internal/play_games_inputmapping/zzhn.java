@@ -1,0 +1,220 @@
+package com.google.android.gms.internal.play_games_inputmapping;
+
+import java.lang.reflect.Field;
+import java.nio.Buffer;
+import java.security.AccessController;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import sun.misc.Unsafe;
+
+/* loaded from: zzhn.class */
+final class zzhn {
+    static final long zza;
+    static final boolean zzb;
+    private static final Unsafe zzc;
+    private static final Class zzd;
+    private static final boolean zze;
+    private static final zzhm zzf;
+    private static final boolean zzg;
+    private static final boolean zzh;
+
+    /* JADX WARN: Removed duplicated region for block: B:17:0x01f1  */
+    /* JADX WARN: Removed duplicated region for block: B:22:0x020b  */
+    /* JADX WARN: Removed duplicated region for block: B:26:0x00b6  */
+    static {
+        /*
+            Method dump skipped, instructions count: 530
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.google.android.gms.internal.play_games_inputmapping.zzhn.m2313clinit():void");
+    }
+
+    private zzhn() {
+    }
+
+    private static int zzA(Class cls) {
+        if (zzh) {
+            return zzf.zzj(cls);
+        }
+        return -1;
+    }
+
+    private static Field zzB() {
+        int i = zzea.zza;
+        Field zzC = zzC(Buffer.class, "effectiveDirectAddress");
+        Field field = zzC;
+        if (zzC == null) {
+            Field zzC2 = zzC(Buffer.class, "address");
+            if (zzC2 != null && zzC2.getType() == Long.TYPE) {
+                return zzC2;
+            }
+            field = null;
+        }
+        return field;
+    }
+
+    private static Field zzC(Class cls, String str) {
+        Field field;
+        try {
+            field = cls.getDeclaredField(str);
+        } catch (Throwable th) {
+            field = null;
+        }
+        return field;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static void zzD(Object obj, long j, byte b) {
+        long j2 = (-4) & j;
+        zzhm zzhmVar = zzf;
+        int zzk = zzhmVar.zzk(obj, j2);
+        int i = ((((int) j) ^ (-1)) & 3) << 3;
+        zzhmVar.zzl(obj, j2, ((255 & b) << i) | (zzk & ((255 << i) ^ (-1))));
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static void zzE(Object obj, long j, byte b) {
+        long j2 = (-4) & j;
+        zzhm zzhmVar = zzf;
+        int zzk = zzhmVar.zzk(obj, j2);
+        int i = (((int) j) & 3) << 3;
+        zzhmVar.zzl(obj, j2, ((255 & b) << i) | (zzk & ((255 << i) ^ (-1))));
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static boolean zza() {
+        return zzh;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static boolean zzb() {
+        return zzg;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static Object zzc(Class cls) {
+        try {
+            return zzc.allocateInstance(cls);
+        } catch (InstantiationException e) {
+            throw new IllegalStateException(e);
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static int zzd(Object obj, long j) {
+        return zzf.zzk(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zze(Object obj, long j, int i) {
+        zzf.zzl(obj, j, i);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static long zzf(Object obj, long j) {
+        return zzf.zzm(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzg(Object obj, long j, long j2) {
+        zzf.zzn(obj, j, j2);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static boolean zzh(Object obj, long j) {
+        return zzf.zzb(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzi(Object obj, long j, boolean z) {
+        zzf.zzc(obj, j, z);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static float zzj(Object obj, long j) {
+        return zzf.zzd(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzk(Object obj, long j, float f) {
+        zzf.zze(obj, j, f);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static double zzl(Object obj, long j) {
+        return zzf.zzf(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzm(Object obj, long j, double d) {
+        zzf.zzg(obj, j, d);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static Object zzn(Object obj, long j) {
+        return zzf.zzo(obj, j);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzo(Object obj, long j, Object obj2) {
+        zzf.zzp(obj, j, obj2);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static void zzp(byte[] bArr, long j, byte b) {
+        zzf.zza(bArr, zza + j, b);
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static Unsafe zzq() {
+        Unsafe unsafe;
+        try {
+            unsafe = (Unsafe) AccessController.doPrivileged(new zzhj());
+        } catch (Throwable th) {
+            unsafe = null;
+        }
+        return unsafe;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    static boolean zzr(Class cls) {
+        int i = zzea.zza;
+        try {
+            Class cls2 = zzd;
+            Class cls3 = Boolean.TYPE;
+            cls2.getMethod("peekLong", cls, cls3);
+            cls2.getMethod("pokeLong", cls, Long.TYPE, cls3);
+            Class cls4 = Integer.TYPE;
+            cls2.getMethod("pokeInt", cls, cls4, cls3);
+            cls2.getMethod("peekInt", cls, cls3);
+            cls2.getMethod("pokeByte", cls, Byte.TYPE);
+            cls2.getMethod("peekByte", cls);
+            cls2.getMethod("pokeByteArray", cls, byte[].class, cls4, cls4);
+            cls2.getMethod("peekByteArray", cls, byte[].class, cls4, cls4);
+            return true;
+        } catch (Throwable th) {
+            return false;
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ boolean zzu(Object obj, long j) {
+        return ((byte) ((zzf.zzk(obj, (-4) & j) >>> ((int) (((j ^ (-1)) & 3) << 3))) & 255)) != 0;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ boolean zzv(Object obj, long j) {
+        return ((byte) ((zzf.zzk(obj, (-4) & j) >>> ((int) ((j & 3) << 3))) & 255)) != 0;
+    }
+
+    static /* synthetic */ void zzy(Throwable th) {
+        Logger.getLogger(zzhn.class.getName()).logp(Level.WARNING, "com.google.protobuf.UnsafeUtil", "logMissingMethod", "platform method missing - proto runtime falling back to safer methods: ".concat(th.toString()));
+    }
+
+    private static int zzz(Class cls) {
+        if (zzh) {
+            return zzf.zzi(cls);
+        }
+        return -1;
+    }
+}

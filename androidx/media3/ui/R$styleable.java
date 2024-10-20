@@ -1,0 +1,60 @@
+package androidx.media3.ui;
+
+import android.R;
+
+/* loaded from: R$styleable.class */
+public abstract class R$styleable {
+    public static int AspectRatioFrameLayout_resize_mode = 0;
+    public static int DefaultTimeBar_ad_marker_color = 0;
+    public static int DefaultTimeBar_ad_marker_width = 1;
+    public static int DefaultTimeBar_bar_gravity = 2;
+    public static int DefaultTimeBar_bar_height = 3;
+    public static int DefaultTimeBar_buffered_color = 4;
+    public static int DefaultTimeBar_played_ad_marker_color = 5;
+    public static int DefaultTimeBar_played_color = 6;
+    public static int DefaultTimeBar_scrubber_color = 7;
+    public static int DefaultTimeBar_scrubber_disabled_size = 8;
+    public static int DefaultTimeBar_scrubber_dragged_size = 9;
+    public static int DefaultTimeBar_scrubber_drawable = 10;
+    public static int DefaultTimeBar_scrubber_enabled_size = 11;
+    public static int DefaultTimeBar_touch_target_height = 12;
+    public static int DefaultTimeBar_unplayed_color = 13;
+    public static int PlayerControlView_animation_enabled = 2;
+    public static int PlayerControlView_controller_layout_id = 6;
+    public static int PlayerControlView_repeat_toggle_modes = 9;
+    public static int PlayerControlView_show_fastforward_button = 15;
+    public static int PlayerControlView_show_next_button = 16;
+    public static int PlayerControlView_show_previous_button = 17;
+    public static int PlayerControlView_show_rewind_button = 18;
+    public static int PlayerControlView_show_shuffle_button = 19;
+    public static int PlayerControlView_show_subtitle_button = 20;
+    public static int PlayerControlView_show_timeout = 21;
+    public static int PlayerControlView_show_vr_button = 22;
+    public static int PlayerControlView_time_bar_min_update_interval = 23;
+    public static int PlayerView_artwork_display_mode = 3;
+    public static int PlayerView_auto_show = 4;
+    public static int PlayerView_default_artwork = 9;
+    public static int PlayerView_hide_during_ads = 10;
+    public static int PlayerView_hide_on_touch = 11;
+    public static int PlayerView_keep_content_on_player_reset = 12;
+    public static int PlayerView_player_layout_id = 15;
+    public static int PlayerView_resize_mode = 17;
+    public static int PlayerView_show_buffering = 23;
+    public static int PlayerView_show_timeout = 26;
+    public static int PlayerView_shutter_background_color = 28;
+    public static int PlayerView_surface_type = 29;
+    public static int PlayerView_use_artwork = 33;
+    public static int PlayerView_use_controller = 34;
+    public static int[] AspectRatioFrameLayout = {2130969529};
+    public static int[] Capability = {2130969513, 2130969563};
+    public static int[] ColorStateListItem = {R.attr.color, R.attr.alpha, 16844359, 2130968678, 2130969231};
+    public static int[] DefaultTimeBar = {2130968618, 2130968619, 2130968719, 2130968720, 2130968759, 2130969483, 2130969484, 2130969541, 2130969542, 2130969543, 2130969544, 2130969545, 2130969797, 2130969817};
+    public static int[] FontFamily = {2130969119, 2130969120, 2130969121, 2130969122, 2130969123, 2130969124, 2130969125};
+    public static int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, 2130969117, 2130969126, 2130969127, 2130969128, 2130969816};
+    public static int[] GradientColor = {R.attr.startColor, R.attr.endColor, R.attr.type, R.attr.centerX, R.attr.centerY, R.attr.gradientRadius, R.attr.tileMode, R.attr.centerColor, R.attr.startX, R.attr.startY, R.attr.endX, R.attr.endY};
+    public static int[] GradientColorItem = {R.attr.color, R.attr.offset};
+    public static int[] LegacyPlayerControlView = {2130968618, 2130968619, 2130968719, 2130968720, 2130968759, 2130968943, 2130969483, 2130969484, 2130969528, 2130969541, 2130969542, 2130969543, 2130969544, 2130969545, 2130969575, 2130969576, 2130969577, 2130969578, 2130969579, 2130969581, 2130969768, 2130969797, 2130969817};
+    public static int[] PlayerControlView = {2130968618, 2130968619, 2130968684, 2130968719, 2130968720, 2130968759, 2130968943, 2130969483, 2130969484, 2130969528, 2130969541, 2130969542, 2130969543, 2130969544, 2130969545, 2130969575, 2130969576, 2130969577, 2130969578, 2130969579, 2130969580, 2130969581, 2130969582, 2130969768, 2130969797, 2130969817};
+    public static int[] PlayerView = {2130968618, 2130968619, 2130968684, 2130968690, 2130968700, 2130968719, 2130968720, 2130968759, 2130968943, 2130968983, 2130969149, 2130969150, 2130969226, 2130969483, 2130969484, 2130969485, 2130969528, 2130969529, 2130969541, 2130969542, 2130969543, 2130969544, 2130969545, 2130969574, 2130969579, 2130969580, 2130969581, 2130969582, 2130969584, 2130969643, 2130969768, 2130969797, 2130969817, 2130969823, 2130969824};
+    public static int[] RecyclerView = {R.attr.orientation, R.attr.clipToPadding, R.attr.descendantFocusability, 2130969082, 2130969083, 2130969084, 2130969085, 2130969086, 2130969240, 2130969530, 2130969596, 2130969607};
+}

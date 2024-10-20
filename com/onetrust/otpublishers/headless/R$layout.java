@@ -1,0 +1,56 @@
+package com.onetrust.otpublishers.headless;
+
+/* loaded from: R$layout.class */
+public abstract class R$layout {
+    public static int fragment_ot_age_gate = 2131558517;
+    public static int fragment_ot_banner = 2131558518;
+    public static int fragment_ot_pc = 2131558519;
+    public static int fragment_ot_purpose_list = 2131558520;
+    public static int fragment_ot_sdk_list = 2131558521;
+    public static int fragment_ot_sdk_list_filter = 2131558522;
+    public static int fragment_ot_uc_purposes = 2131558523;
+    public static int fragment_ot_uc_purposes_options = 2131558524;
+    public static int fragment_ot_vendors_list = 2131558525;
+    public static int ot_banner_tvfragment = 2131558619;
+    public static int ot_general_vendor_details_purpose_item = 2131558620;
+    public static int ot_general_vendors_details_fragment = 2131558621;
+    public static int ot_google_vendor_list_item = 2131558622;
+    public static int ot_iab_illustration_details_purpose_item = 2131558623;
+    public static int ot_iab_illustration_details_purpose_tv_item = 2131558624;
+    public static int ot_iab_illustrations_details_fragment = 2131558625;
+    public static int ot_pc_groupdetail_tv = 2131558627;
+    public static int ot_pc_groupitem_tv = 2131558628;
+    public static int ot_pc_illustration_detail_tv = 2131558629;
+    public static int ot_pc_list_item_tv = 2131558630;
+    public static int ot_pc_main_tvfragment = 2131558631;
+    public static int ot_pc_subgroupdetail_tv = 2131558632;
+    public static int ot_pc_tvfragment = 2131558634;
+    public static int ot_preference_center_details_fragment = 2131558635;
+    public static int ot_preference_center_details_item = 2131558636;
+    public static int ot_preference_center_item = 2131558637;
+    public static int ot_purpose_list_item = 2131558639;
+    public static int ot_sdk_details_tv_fragment = 2131558640;
+    public static int ot_sdk_list_filter_item = 2131558641;
+    public static int ot_sdk_list_item = 2131558642;
+    public static int ot_sdk_list_tvfragment = 2131558644;
+    public static int ot_sync_notification = 2131558645;
+    public static int ot_tv_purpose_filter = 2131558646;
+    public static int ot_tv_purpose_filter_item = 2131558647;
+    public static int ot_tv_sync_notification = 2131558648;
+    public static int ot_tv_vendor_details_purpose_item = 2131558649;
+    public static int ot_tv_vendor_details_purpose_title_item = 2131558650;
+    public static int ot_tv_vendor_details_standard_retention_item = 2131558651;
+    public static int ot_tv_vendor_disclosure_item = 2131558652;
+    public static int ot_tv_vendor_domains_used_item = 2131558653;
+    public static int ot_tv_vendor_qrcode = 2131558654;
+    public static int ot_uc_purposes_item_list = 2131558655;
+    public static int ot_uc_purposes_list = 2131558656;
+    public static int ot_uc_purposes_options_item = 2131558657;
+    public static int ot_vendor_details_purpose_item = 2131558658;
+    public static int ot_vendor_details_tv_fragment = 2131558659;
+    public static int ot_vendor_disclosure_item = 2131558660;
+    public static int ot_vendor_domains_used_item = 2131558661;
+    public static int ot_vendor_list_tvfragment = 2131558662;
+    public static int ot_vendors_details_fragment = 2131558663;
+    public static int ot_vendors_list_item = 2131558664;
+}
